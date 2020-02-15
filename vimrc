@@ -37,9 +37,10 @@ set splitbelow splitright
 
 " Mappings
 " =============================================================================
-inore jj <Esc>
+inore jk <Esc>
 noremap <leader>f :Goyo \| set linebreak<CR>        
 noremap <leader>n :NERDTreeToggle<CR>
+noremap <leader>t :!tsc<CR>
 
 
 " Theme
